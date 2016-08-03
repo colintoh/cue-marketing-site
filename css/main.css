@@ -99,7 +99,7 @@ textarea {
 }
 
 .l-container {
-    width: 768px;
+    width: 1028px;
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0 27px;
@@ -241,6 +241,11 @@ blockquote {
     color: #fff;
 }
 
+    .header h2 {
+        width: 80%;
+        margin: auto;
+    }
+
 .oswald {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
@@ -275,6 +280,7 @@ blockquote {
     text-align: right;
     color: #000;
     font-size: 18px;
+    margin-top: 27px;
 }
 
 .invite {
@@ -317,6 +323,7 @@ blockquote {
 .hero-picture {
     position: relative;
     height: 366px;
+    width: 100%;
 }
 
 .hero-picture img {
@@ -331,31 +338,37 @@ blockquote {
 
     .hero-picture .hero-picture-top {
         z-index: 2;
-        top: 38px;
+        top: 50px;
     }
 
 .steps {
     padding: 54px 0;
-    text-align: center;
+    overflow: hidden;
 }
 
 .steps .steps-txt {
-    width: 30%;
-    font-size: 27px;
+    width: 45%;
 }
 
 .steps .preview {
-    border: 1px solid rgba(0,0,0,0.1);
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    padding-top: 27px;
+    background-image: url(../img/browser.png);
+    background-size: 100%;
 }
 
 .steps .preview > div {
     display: block !important;
+    border: 1px solid rgba(0,0,0,0.1);
 }
 
 .steps .demo {
-    width: 60%;
+    width: 50%;
 }
+
+    .steps .demo img {
+        width: 100%;
+    }
 
 .marker {
     background: #00b588;
